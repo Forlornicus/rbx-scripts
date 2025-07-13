@@ -11,7 +11,7 @@ local ScriptBox = Instance.new("TextBox")
 local UIPadding = Instance.new("UIPadding")
 
 Executor.Name = "Executor"
-Executor.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Executor.Parent = game:GetService("CoreGui")
 Executor.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
